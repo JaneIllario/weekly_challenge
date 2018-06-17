@@ -7,7 +7,8 @@ path = 'C:\Users\janei\OneDrive\Desktop\Projects\github\weekly_challenge\doc_str
 # 	doc=open(path+"\\"+file,"r")
 # 	files=files+doc.read()+' '
 
-with open(path+"\\"+iter(os.listdir(path)),"r") as file:
+
+with map(open, os.path.join(path, [iter(os.listdir(path))]) ) as file:
 	files=[files.append(file) for file in file.read()]
 print(files)
 
