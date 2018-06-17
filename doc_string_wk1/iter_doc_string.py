@@ -1,18 +1,12 @@
 import os
 
-files=''
-path = 'C:\Users\janei\OneDrive\Desktop\Projects\github\weekly_challenge\doc_string_wk1\src_txt'
-
-# for file in os.listdir(path):
-# 	doc=open(path+"\\"+file,"r")
-# 	files=files+doc.read()+' '
-
-
-with map(open, [os.path.join(path, itr_file) for itr_file in os.listdir(path)]) as file:
-	files=[files.append(file) for file in file.read()]
-print(files)
-
+txt_path = 'C:\Users\janei\OneDrive\Desktop\Projects\github\weekly_challenge\doc_string_wk1\src_txt'
 save_path = 'C:\Users\janei\OneDrive\Desktop\Projects\github\weekly_challenge\doc_string_wk1'
 
-with open(os.path.join(save_path, "output"), "w+") as output_file:
-	output_file.write(files)
+open(os.path.join(save_path, "output"), "w+").write(" ".join([open(os.path.join(txt_path, itr_file), "r").read() for itr_file in os.listdir(txt_path)]))
+
+#OR
+#broken up for readability
+
+# txt=[open(os.path.join(txt_path, itr_file), "r").read() for itr_file in os.listdir(txt_path)]
+# open(os.path.join(save_path, "output"), "w+").write(" ".join(txt))
