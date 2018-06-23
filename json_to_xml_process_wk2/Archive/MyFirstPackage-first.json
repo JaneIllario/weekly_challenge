@@ -1,0 +1,122 @@
+{
+  "ReleaseInfo": {
+    "recordsets": [
+      [
+        {
+          "Releaseinfo": "first",
+          "id": 2,
+          "packageid": 2,
+          "name": "first",
+          "created": "2017-08-14T14:14:03.780Z",
+          "userid": "23D94738-C7FB-449A-8A67-22DDB722BB23",
+          "notes": "",
+          "compressedxml": null,
+          "local": true,
+          "username": "admin",
+          "packagename": "MyFirstPackage"
+        },
+        [
+          {
+            "source": "FromAudit",
+            "typekey": "process",
+            "name": "HelloWorld",
+            "packagename": "MyFirstPackage",
+            "created": "2018-05-29T03:28:04.513Z",
+            "processid": "F5B74925-A941-4493-B8C6-D3BAF8B4B06D"
+          },
+          {
+            "source": "FromAudit",
+            "typekey": "process",
+            "name": "Order System Test Rig",
+            "packagename": "MyFirstPackage",
+            "created": "2018-05-29T03:28:04.513Z",
+            "processid": "4E4D668E-D948-4186-B93A-4E98E9534BC2"
+          },
+          {
+            "source": "FromAudit",
+            "typekey": "object",
+            "name": "Internet Explorer HelloWorld",
+            "packagename": "MyFirstPackage",
+            "created": "2018-05-29T03:28:04.513Z",
+            "processid": "7F92CAD2-75E7-422C-AF68-B356D71F9270"
+          },
+          {
+            "source": "FromAudit",
+            "typekey": "object",
+            "name": "Order System",
+            "packagename": "MyFirstPackage",
+            "created": "2018-05-29T03:28:04.513Z",
+            "processid": "1D0CB764-9304-4C4F-B9E8-7A85CB1837DC"
+          }
+        ]
+      ]
+    ],
+    "output": {},
+    "rowsAffected": [
+      1
+    ]
+  },
+  "ProcessInRelease": {
+    "recordsets": [
+      [
+        {
+          "source": "FromAudit",
+          "typekey": "process",
+          "name": "HelloWorld",
+          "packagename": "MyFirstPackage",
+          "created": "2018-05-29T03:28:04.513Z",
+          "processid": "F5B74925-A941-4493-B8C6-D3BAF8B4B06D"
+        },
+        {
+          "source": "FromAudit",
+          "typekey": "process",
+          "name": "Order System Test Rig",
+          "packagename": "MyFirstPackage",
+          "created": "2018-05-29T03:28:04.513Z",
+          "processid": "4E4D668E-D948-4186-B93A-4E98E9534BC2"
+        },
+        {
+          "source": "FromAudit",
+          "typekey": "object",
+          "name": "Internet Explorer HelloWorld",
+          "packagename": "MyFirstPackage",
+          "created": "2018-05-29T03:28:04.513Z",
+          "processid": "7F92CAD2-75E7-422C-AF68-B356D71F9270"
+        },
+        {
+          "source": "FromAudit",
+          "typekey": "object",
+          "name": "Order System",
+          "packagename": "MyFirstPackage",
+          "created": "2018-05-29T03:28:04.513Z",
+          "processid": "1D0CB764-9304-4C4F-B9E8-7A85CB1837DC"
+        }
+      ]
+    ],
+    "output": {},
+    "rowsAffected": [
+      1,
+      4
+    ]
+  },
+  "VariableInRelease": {
+    "recordsets": [
+      []
+    ],
+    "recordset": [],
+    "output": {},
+    "rowsAffected": [
+      0
+    ]
+  },
+  "GroupReleaseInfo": {
+    "recordsets": [
+      []
+    ],
+    "recordset": [],
+    "output": {},
+    "rowsAffected": [
+      0
+    ]
+  }
+}
